@@ -10,3 +10,4 @@
 
 - **RNF01** – Funcionar sem conexão no campo, sincronizando depois.
 - **RNF02** – Interface legível sob luz solar forte.
+s
