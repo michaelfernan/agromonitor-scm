@@ -11,6 +11,7 @@ Todos os artefatos do projeto (código, documentação e design) ficam aqui, na 
 | `docs/requisitos.md` | Requisitos do MVP | Analista de requisitos |
 | `src/talhoes.py` | Cadastro de propriedades e talhões | Desenvolvedor back-end |
 | `src/pragas.py` | Registro de ocorrências de pragas | Desenvolvedor back-end |
+| `src/insumos.py` | Controle de aplicação de insumos | Desenvolvedor back-end |
 
 ## Fluxo de mudanças
 

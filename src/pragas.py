@@ -13,9 +13,8 @@ def registrar_ocorrencia(id_talhao, praga, nivel, data=None):
     ocorrencia = {"id_talhao": id_talhao, "praga": praga, "nivel": nivel, "data": data or date.today()}
     ocorrencias.append(ocorrencia)
     return ocorrencia
- 
+
 
 def historico_talhao(id_talhao):
     """Devolve as ocorrências de um talhão, da mais recente para a mais antiga."""
     return sorted((o for o in ocorrencias if o["id_talhao"] == id_talhao), key=lambda o: o["data"], reverse=True)
- 
